@@ -53,6 +53,7 @@ $main-color: #722ffb;
 
       .lang {
         position: relative;
+        cursor: pointer;
 
         .active_lang {
           display: flex;
@@ -69,15 +70,21 @@ $main-color: #722ffb;
           }
         }
 
+        &:hover .list {
+          top: 25px;
+          opacity: 1;
+        }
+
         .list {
           padding: 15px;
           background-color: white;
           border-radius: 8px;
           position: absolute;
-          top: 0;
+          top: 20px;
           left: 0;
           width: 150px;
-          display: none;
+          opacity: 0;
+          transition: all 0.4s ease;
 
           .item {
             &:not(:last-child) {

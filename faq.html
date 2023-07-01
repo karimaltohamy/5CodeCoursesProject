@@ -18,6 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- start mini header -->
@@ -90,14 +91,14 @@
             <a href="courses.html" class="link"> Courses Us </a>
             <a href="blog.html" class="link"> Blog </a>
             <a href="faq.html" class="link active"> FAQ </a>
-            <a href="#" class="link"> Contact Us </a>
+            <a href="contact.html" class="link"> Contact Us </a>
           </div>
           <div class="info">
             <div class="admin">
               <i class="fa-regular fa-user"></i>
               <span>Admin</span>
             </div>
-            <a href="" class="btn_signUp">
+            <a href="sign-up.html" class="btn_signUp">
               <i class="fa-solid fa-user-plus"></i>
               Sign up
             </a>
@@ -124,7 +125,7 @@
         <a href="courses.html" class="link"> Courses Us </a>
         <a href="blog.html" class="link active"> Blog </a>
         <a href="faq.html" class="link"> FAQ </a>
-        <a href="#" class="link"> Contact Us </a>
+        <a href="contact.html" class="link"> Contact Us </a>
       </div>
     </div>
     <!-- end menu mobile -->
@@ -144,12 +145,31 @@
     <!-- start faq section -->
     <div class="faq_section">
       <div class="container">
-        <div class="subtitle">GET INFORMATION</div>
-        <h1 class="title">Frequently asked some questions</h1>
+        <div
+          class="subtitle"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
+          GET INFORMATION
+        </div>
+        <h1
+          class="title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="600"
+        >
+          Frequently asked some questions
+        </h1>
         <div class="line">
           <div class="left">
             <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
+              <div
+                class="accordion-item"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <h2 class="accordion-header" id="headingOne">
                   <button
                     class="accordion-button collapsed"
@@ -176,7 +196,12 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
+              <div
+                class="accordion-item"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="400"
+              >
                 <h2 class="accordion-header" id="headingTwo">
                   <button
                     class="accordion-button collapsed"
@@ -201,7 +226,12 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
+              <div
+                class="accordion-item"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="600"
+              >
                 <h2 class="accordion-header" id="headingThree">
                   <button
                     class="accordion-button collapsed"
@@ -229,7 +259,12 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
+              <div
+                class="accordion-item"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="800"
+              >
                 <h2 class="accordion-header" id="headingFour">
                   <button
                     class="accordion-button collapsed"
@@ -256,7 +291,12 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
+              <div
+                class="accordion-item"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="1000"
+              >
                 <h2 class="accordion-header" id="headingFive">
                   <button
                     class="accordion-button collapsed"
@@ -287,7 +327,12 @@
           </div>
           <div class="right">
             <div class="accordion" id="accordionExample2">
-              <div class="accordion-item">
+              <div
+                class="accordion-item"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <h2 class="accordion-header" id="headingSix">
                   <button
                     class="accordion-button collapsed"
@@ -312,7 +357,12 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
+              <div
+                class="accordion-item"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="400"
+              >
                 <h2 class="accordion-header" id="headingSeven">
                   <button
                     class="accordion-button collapsed"
@@ -339,7 +389,12 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
+              <div
+                class="accordion-item"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="600"
+              >
                 <h2 class="accordion-header" id="headingEight">
                   <button
                     class="accordion-button collapsed"
@@ -366,7 +421,12 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
+              <div
+                class="accordion-item"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="800"
+              >
                 <h2 class="accordion-header" id="headingNine">
                   <button
                     class="accordion-button collapsed"
@@ -394,7 +454,12 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
+              <div
+                class="accordion-item"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="1000"
+              >
                 <h2 class="accordion-header" id="headingTen">
                   <button
                     class="accordion-button collapsed"
@@ -505,5 +570,9 @@
 
     <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
